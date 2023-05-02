@@ -1,61 +1,71 @@
 {
-  // Place your snippets for typescriptreact here. Each snippet is defined under a snippet name and has a prefix, body and
-  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
-  // same ids are connected.
-  // Example:
-  "React Function Componenet Export with Styled Component": {
-    "prefix": "rfs",
-    "body": [
-      "import styled from \"styled-components\";",
-      "",
-      "const ${1:$TM_FILENAME_BASE} = ()=>{",
-      "  return <Styled${1:$TM_FILENAME_BASE}>${1:$TM_FILENAME_BASE}</Styled${1:$TM_FILENAME_BASE}>",
-      "}",
-      "",
-      "const Styled${1:$TM_FILENAME_BASE} = styled.div``",
-      "",
-      "export default ${1:$TM_FILENAME_BASE};"
-    ],
-    "description": "Log output to console"
-  },
-  "React Function Componenet Export with Styled Component with Props": {
-    "prefix": "rfsp",
-    "body": [
-      "import styled from \"styled-components\";",
-      "",
-      "interface ${1:$TM_FILENAME_BASE}Props {",
-      "}",
-      "",
-      "const ${1:$TM_FILENAME_BASE} = ({}:${1:$TM_FILENAME_BASE}Props)=>{",
-      "  return <Styled${1:$TM_FILENAME_BASE}>${1:$TM_FILENAME_BASE}</Styled${1:$TM_FILENAME_BASE}>",
-      "}",
-      "",
-      "const Styled${1:$TM_FILENAME_BASE} = styled.div``",
-      "",
-      "export default ${1:$TM_FILENAME_BASE};"
-    ],
-    "description": "React component along with component props with styled component"
-  },
-  "React Function Componenet Export with Styled Component with Props and Styled Component with Props": {
-    "prefix": "rfspp",
-    "body": [
-      "import styled from \"styled-components\";",
-      "",
-      "interface ${1:$TM_FILENAME_BASE}Props {",
-      "}",
-      "",
-      "const ${1:$TM_FILENAME_BASE} = ({}:${1:$TM_FILENAME_BASE}Props)=>{",
-      "  return <Styled${1:$TM_FILENAME_BASE}>${1:$TM_FILENAME_BASE}</Styled${1:$TM_FILENAME_BASE}>",
-      "}",
-      "",
-      "interface Styled${1:$TM_FILENAME_BASE}Props {",
-      "}",
-      "",
-      "const Styled${1:$TM_FILENAME_BASE} = styled.div<Styled${1:$TM_FILENAME_BASE}Props>``",
-      "",
-      "export default ${1:$TM_FILENAME_BASE};"
-    ],
-    "description": "React component along with component props with styled component"
+	"React Function Componenet Export with Styled Component": {
+	  "prefix": "rfs",
+	  "body": [
+		"import styled from \"styled-components\";",
+		"",
+		"const ${1:$TM_FILENAME_BASE} = ()=>{",
+		"  return <Styled${1:$TM_FILENAME_BASE}>${1:$TM_FILENAME_BASE}</Styled${1:$TM_FILENAME_BASE}>",
+		"}",
+		"",
+		"const Styled${1:$TM_FILENAME_BASE} = styled.div``",
+		"",
+		"export default ${1:$TM_FILENAME_BASE};"
+	  ],
+	  "description": "Log output to console"
+	},
+	"React Function Componenet Export with Styled Component with Props": {
+	  "prefix": "rfsp",
+	  "body": [
+		"import styled from \"styled-components\";",
+		"",
+		"interface ${1:$TM_FILENAME_BASE}Props {",
+		"}",
+		"",
+		"const ${1:$TM_FILENAME_BASE} = ({}:${1:$TM_FILENAME_BASE}Props)=>{",
+		"  return <Styled${1:$TM_FILENAME_BASE}>${1:$TM_FILENAME_BASE}</Styled${1:$TM_FILENAME_BASE}>",
+		"}",
+		"",
+		"const Styled${1:$TM_FILENAME_BASE} = styled.div``",
+		"",
+		"export default ${1:$TM_FILENAME_BASE};"
+	  ],
+	  "description": "React component along with component props with styled component"
+	},
+	"React Function Componenet Export with Styled Component with Props and Styled Component with Props": {
+	  "prefix": "rfspp",
+	  "body": [
+		"import styled from \"styled-components\";",
+		"",
+		"interface ${1:$TM_FILENAME_BASE}Props {",
+		"}",
+		"",
+		"const ${1:$TM_FILENAME_BASE} = ({}:${1:$TM_FILENAME_BASE}Props)=>{",
+		"  return <Styled${1:$TM_FILENAME_BASE}>${1:$TM_FILENAME_BASE}</Styled${1:$TM_FILENAME_BASE}>",
+		"}",
+		"",
+		"interface Styled${1:$TM_FILENAME_BASE}Props {",
+		"}",
+		"",
+		"const Styled${1:$TM_FILENAME_BASE} = styled.div<Styled${1:$TM_FILENAME_BASE}Props>``",
+		"",
+		"export default ${1:$TM_FILENAME_BASE};"
+	  ],
+	  "description": "React component along with component props with styled component"
+	},
+	"React Functional Component with Props": {
+	  "prefix": "rfp",
+	  "body": [
+		"interface ${1:$TM_FILENAME_BASE}Props {",
+		"}",
+		"",
+		"const ${1:$TM_FILENAME_BASE} = ({}:${1:$TM_FILENAME_BASE}Props)=>{",
+		"  return <div>${1:$TM_FILENAME_BASE}</div>",
+		"}",
+		"",
+		"export default ${1:$TM_FILENAME_BASE};"
+	  ],
+	  "description": "React component along with component props with styled component"
+	}
   }
-}
+  
